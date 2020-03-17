@@ -9,11 +9,13 @@ The main purpose of this _library_ is to allow the user to retreive platform rel
 
 ## How to integrate
 
-1. Clone the repository and build the _library_ using Android Studio yourself or use the latest release from [here](awu/build/outputs/aar/awu-release.aar)
+1. Clone _awu_ repository and build the _library_ using Android Studio yourself or use the latest _.aar library_ release from [here](awu/build/outputs/aar/awu-release.aar)
 
 2. Copy the _.aar library_ file into your Unity's project _Assets/Plugins/Android_ directory
 
 3. _(Optional)_ In Unity select the _.aar library_ file from Project window and check the option __Load on startup__ from the Inspector
+
+<p align="center"><img src="./read.me/awu_inspector.png"></p> 
 
 4. Copy Unity's C# implementation available from [here](UnityScript/Awu.cs) into your _Assets/Scripts_
 
@@ -22,8 +24,8 @@ The main purpose of this _library_ is to allow the user to retreive platform rel
 Upon finishing the integration process described above you should be able to take advantage of _library's_ functionality.<br>
 In your C# Unity's code you can use it in the following way:
 
-```
-bool isNetAvailable = Awu.IsNetworkAvailable;
+```csharp
+bool isConnected = Awu.IsNetworkAvailable;
 bool itTv = Awu.IsAndroidTv;
 // ...
 ```
