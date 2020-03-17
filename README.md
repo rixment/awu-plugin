@@ -24,8 +24,8 @@ The main purpose of this _library_ is to allow the user to retreive platform rel
 Upon finishing the integration process described above you should be able to take advantage of _library's_ functionality.<br>
 In your C# Unity's code you can use it in the following way:
 
-```
-bool isNetAvailable = Awu.IsNetworkAvailable;
+```csharp
+bool isConnected = Awu.IsNetworkAvailable;
 bool itTv = Awu.IsAndroidTv;
 // ...
 ```
