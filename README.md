@@ -1,4 +1,4 @@
-# awu - Android Wrapper for Unity
+# Android Wrapper for Unity (awu)
 
 This is an Android's _library_ that is designed to be used as a plugin within Unity's project. It is created using Android Studio 3.6 and should consist of all projects files required by the IDE if one desires to tweak its functionality to his or hers needs.
 
