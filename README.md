@@ -15,6 +15,8 @@ The main purpose of this _library_ is to allow the user to retreive platform rel
 
 3. _(Optional)_ In Unity select the _.aar library_ file from Project window and check the option __Load on startup__ from the Inspector
 
+<p align="center"><img src="./read.me/awu_inspector.png"></p> 
+
 4. Copy Unity's C# implementation available from [here](UnityScript/Awu.cs) into your _Assets/Scripts_
 
 ## Usage
