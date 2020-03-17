@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-public class Awu
+public static class Awu
 {
     public static bool IsNetworkAvailable
     {
