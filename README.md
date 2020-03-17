@@ -9,6 +9,12 @@ The main purpose of this _library_ is to allow the user to retreive platform rel
 
 ## How to integrate
 
+1. Clone the repository and build the _library_ using Android Studio yourself or use the latest release from [here](awu/build/outputs/aar/awu-release.aar)
+
+2. Copy the _.aar library_ file into your Unity's project _Plugin/Android_ directory
+
+3. _(Optional)_ In Unity select the _.aar library_ file from Project window and check the option __Load on startup__ from the Inspector
+
 ## Usage
 
 ## Copyright and License
