@@ -6,6 +6,7 @@ The main purpose of this _library_ is to allow the user to retreive platform rel
 
 - retreiving information regarding the state of the network via `isNetworkAvailable`
 - determining if a device on which the app is running is of Tv-type via `isAndroidTv`
+- text based message sharing with the use of Android's Intent mechanism via `shareText`
 
 ## How to integrate
 
@@ -25,9 +26,14 @@ Upon finishing the integration process described above you should be able to tak
 In your C# Unity's code you can use it in the following way:
 
 ```csharp
+// Let's check if we're connected to the internet
 bool isConnected = Awu.IsNetworkAvailable;
+
+// Let's check if the game is running on Android TV enabled device
 bool itTv = Awu.IsAndroidTv;
-// ...
+
+// Let's share our game with a friend via text message
+Awu.ShareText("Share via", "My Awesome Game", new System.Uri("http://my.awesomegame.com"));
 ```
 
 ## Copyright and License
