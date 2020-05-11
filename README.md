@@ -36,5 +36,8 @@ bool itTv = Awu.IsAndroidTv;
 Awu.ShareText("Share via", "My Awesome Game", new System.Uri("http://my.awesomegame.com"));
 ```
 
+## Proguard
+
+Projects utilising proguard obfuscation process should keep `-keep class rixment.awu.** { *; }` within its _proguard_ definition file.
 ## Copyright and License
 Copyright 2005-2020 Rixment. Code released under the [MIT](./LICENSE) license.
