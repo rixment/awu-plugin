@@ -30,7 +30,7 @@ In your C# Unity's code you can use it in the following way:
 bool isConnected = Awu.IsNetworkAvailable;
 
 // Let's check if the game is running on Android TV enabled device
-bool itTv = Awu.IsAndroidTv;
+bool isTv = Awu.IsAndroidTv;
 
 // Let's share our game with a friend via text message
 Awu.ShareText("Share via", "My Awesome Game", new System.Uri("http://my.awesomegame.com"));
