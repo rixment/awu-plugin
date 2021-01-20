@@ -26,11 +26,13 @@ Upon finishing the integration process described above you should be able to tak
 In your C# Unity's code you can use it in the following way:
 
 ```csharp
-// Let's check if we're connected to the internet
-bool isConnected = Awu.IsNetworkAvailable;
+bool isConnected = Awu.IsNetworkAvailable; // Let's check if we're connected to the internet
 
-// Let's check if the game is running on Android TV enabled device
-bool isTv = Awu.IsAndroidTv;
+bool isTv = Awu.IsAndroidTv; // Let's check if the game is running on Android TV enabled device
+
+bool isCellular = Awu.IsConnectedViaCellular; // Is mobile data connection established
+
+bool isWifi = Awu.IsConnectedViaWifi; // Is wifi connection established
 
 // Let's share our game with a friend via text message
 Awu.ShareText("Share via", "My Awesome Game", new System.Uri("http://my.awesomegame.com"));
