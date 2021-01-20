@@ -15,7 +15,7 @@ The main purpose of this _library_ is to allow the user to retreive platform rel
 
 2. Copy the _.aar library_ file into your Unity's project _Assets/Plugins/Android_ directory
 
-3. _(Optional)_ In Unity select the _.aar library_ file from Project window and check the option __Load on startup__ from the Inspector
+3. _(Optional)_ In Unity select the _.aar library_ file from Project window and mark the option __Load on startup__ from the Inspector
 
 <p align="center"><img src="./read.me/awu_inspector.png"></p> 
 
