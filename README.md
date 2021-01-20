@@ -5,6 +5,7 @@ This is an Android's _library_ that is designed to be used as a plugin within Un
 The main purpose of this _library_ is to allow the user to retreive platform related information within Unity's project and currently includes:
 
 - retreiving information regarding the state of the network via `isNetworkAvailable`
+- determining established connection type via `IsConnectedViaCellular` and `IsConnectedViaWifi`
 - determining if a device on which the app is running is of Tv-type via `isAndroidTv`
 - text based message sharing with the use of Android's Intent mechanism via `shareText`
 
